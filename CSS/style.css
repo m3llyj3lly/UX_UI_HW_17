@@ -1,0 +1,58 @@
+<link>index.html</link>
+
+{display: inline block}
+    vertical-align: top
+}
+body{
+font-family: Roboto Condensed, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+div{
+    width: 23%;
+    padding: 1%;
+}
+
+nav{
+    width: 73%;
+    padding: 1%;
+}
+
+ul{
+    background-color: #D1A6F9;
+    margin-right: auto;
+    text-align: right;
+    padding: 10spx;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+h1{
+    text-align: center;
+    float: nav-left: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    height: 600px
+    padding: 25px
+}
+
+p{
+    float: right
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+}
+ul li{
+    display: inline-block;
+    font-display: center;
+    padding: 30px 30px;
+    vertical-align: top;
+}
+.topNav{
+    float: right;
+    display: inline-block;
+}
+footer {
+    background-color: #373738
+}
