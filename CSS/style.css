@@ -1,58 +1,78 @@
-<link>index.html</link>
-
-{display: inline block}
-    vertical-align: top
-}
-body{
-font-family: Roboto Condensed, 'Times New Roman', Times, serif;
+body {
+    font-family: 'Roboto Condensed', 'Times New Roman', Times, serif;
     color: black;
 }
 
-div{
+div.inline {
     width: 23%;
     padding: 1%;
 }
 
-nav{
-    width: 73%;
+nav.topNav {
     padding: 1%;
 }
 
 ul{
-    background-color: #D1A6F9;
-    margin-right: auto;
-    text-align: right;
-    padding: 10spx;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    
-h1{
+    padding: 10px;
+}
+p.title {
     text-align: center;
-    float: nav-left: ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
 }
-
-img{
-    height: 600px
-    padding: 25px
+.content {
+    position: relative;
 }
-
-p{
-    float: right
+.content img {
+    width: 100%;
+}
+hr {
+    margin: 30px 0;
+}
+h1 {
+    position: absolute;
+    top: -40px;
+    left: 52px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 86px;
+    font-weight: 400;
+}
+p {
     text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
+.topNav {
+    float: right;
 }
-ul li{
+.topNav ul li {
+    background-color: #D1A6F9;
     display: inline-block;
-    font-display: center;
+    text-align: center;
     padding: 30px 30px;
     vertical-align: top;
-}
-.topNav{
-    float: right;
-    display: inline-block;
+    margin-left: 10px;
 }
 footer {
-    background-color: #373738
+    background-color: #373738;
+    padding: 10px;
+}
+.footer ul li {
+    border: 1px solid #D1A6F9;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.contact img {
+    float: left;
+}
+.contact p {
+    text-align: left;
+    padding-top: 65px;
+    color: #ffffff;
+}
+.copyright {
+    clear: left;
+    text-align: right;
+    color: #ffffff;
 }
